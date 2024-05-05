@@ -1,0 +1,11 @@
+decorator
+fastapi
+matplotlib-inline
+numpy
+pandas
+scikit-learn
+scipy
+uvicorn
+wcwidth
+requests
+wordcloud
