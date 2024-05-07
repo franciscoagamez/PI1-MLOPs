@@ -14,7 +14,7 @@ from functions import sentiment_analysis
 from functions import UsersNotRecommend
 from functions import PlayTimeGenre
 from functions import UserForGenre
-#from functions import recomendacion_usuario
+from functions import recomendacion_juego
 #from modelo_item_item import recomendacion_usuario
 
 
@@ -99,3 +99,16 @@ async def user(year: int):
     
     except FileNotFoundError as e:
         raise HTTPException(status_code=500, detail=f"Error al cargar el archivo UsersRecommend.csv: {str(e)}")
+
+
+@app.get("/recomendacion_juego/{item_id}", tags=['recomendacion_juego item_item'])
+async def item(item_id: int):
+
+    try:
+        item_id = int(item_id) 
+        result = recomendacion_juego(item_id)
+        
+        return result
+    
+    except Exception as e:
+        return {"error":str(e)}
