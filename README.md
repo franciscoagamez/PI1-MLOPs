@@ -1,7 +1,7 @@
 ![Texto alternativo](assets/PresentacionSteam.jpg)
 
 
-# Machine Learning Operations (MLOps)
+# Machine Learning Operations (MLOps).
 
 ## Sistema de Recomendación de Videojuegos para Usuarios de Steam
 
