@@ -42,7 +42,7 @@ Python, Pandas, Scikit-Learn, FastAPI, Uvicorn, Render, Matplotlib, Seaborn, Plo
 
 ### Enlaces de interés:
 
-1. [Despliegue de la API en Render ](https://pi1-mlops-ew6o.onrender.com/)
+1. [Despliegue de la API en Render ](https://pi1-mlops-ew6o.onrender.com/docs#/endpoints)
 2. [Video Explicativo del proceso (youtube) ](https://youtu.be/W_x8cJtv-jc)
 3. [Datasets usados y diccionario de datos ](https://drive.google.com/drive/folders/1H5C77FkcfqbtCTbPYQLWuT1mkuLT5TWO?usp=drive_link)
 4.  [Repositorio de GitHub](https://github.com/franciscoagamez/PI1-MLOPs)
